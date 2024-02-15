@@ -1,3 +1,10 @@
+import CartItem from '../components/CartItem';
+
 export default function Cart() {
-  return <h1>장바구니입니다</h1>;
+  return (
+    <div>
+      <h4 className="title">Cart</h4>
+      <CartItem />
+    </div>
+  );
 }
